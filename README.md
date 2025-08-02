@@ -20,7 +20,7 @@
 - 单元测试五级分类.ipynb 是测试文件，用于测试机跑saas_rating和领鸟跑出的model_st数据的对比；(10-20只不一致很正常，是分位点计算的微小差异，内有归因程序cell)
 
 - 手改覆盖修改程序.ipynb 和 broker_tag_compare.py 一般是连在一起使用；broker_tag_compare.py 运行出初步报告进入report文件夹。
-- 运行手改覆盖修改程序.ipynb 可进行进一步调整，并生成ai prompt,完成手动评级调整后；运行最后单元格完成saas_five_class_white_list 表更新,最后会自动发邮件给明非姐留档！（生产环境，务必在一天内完成准确的手动更新！）
+- 运行手改覆盖修改程序.ipynb 可进行进一步调整，并生成ai prompt,完成手动评级调整后；运行最后单元格完成saas_five_class_white_list 表更新,最后会自动发邮件给xxx留档！（生产环境，务必在一天内完成准确的手动更新！）
 
 - 取数程序_saas_rating历史数据.ipynb 和 daily_query_update.py 是saas_rating取数程序，可运行；ipynb文件是取历史数据，py文件是取最新数据。(如要更新历史数据，那需要删除历史数据后入库)
 
